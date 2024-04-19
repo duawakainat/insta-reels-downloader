@@ -9,7 +9,6 @@ function App() {
   const [Thumbnail, setThumbnail] = useState("");
   const [videoQuality, setvideoQuality] = useState("");
   const [videoDownloadURL, setvideoDownloadURL] = useState("");
-  const [videoHidden, setVideoHidden] = useState(true);
   const [error, seterror] = useState(false);
 
 
@@ -40,15 +39,6 @@ function App() {
       seterror(true);
     }
   };
-  const hiddenBtn = async () => {
-    setVideoHidden(false)
-    return
-  }
-
-
-
-
-
   return (
 
 
