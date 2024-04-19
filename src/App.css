@@ -40,3 +40,8 @@
     transform: rotate(360deg);
   }
 }
+.btn_B{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
